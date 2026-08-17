@@ -18,7 +18,7 @@ string: a single string with newline characters ('\n') where the breaks should b
 def weap(string,max_width):
     result = ""
     for i in range(0,len(string),max_width):
-        result += string[i:i + max_width]+ "/n"
+        result += string[i:i + max_width]+ "\n"
     return result
 
 
